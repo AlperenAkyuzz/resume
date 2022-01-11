@@ -1,17 +1,12 @@
 
-# ResuMe Nuxt + i18n (Multilanguage) ✨🌍
-
-![locates](./documentation/ResumeLogo.png)
-
-An easy way to **build** you own personal web resume! 💪
-### [Check the Demo 💾](https://ivangreve.com/)
+# Resume
 
 ## Pre-Requisites 
 
 - Install [NodeJS](https://nodejs.org/es/)
 
 
-##  How to start? 🥳
+##  How to start?
 1) **Clone** the **repository**
 2) **Install** dependencies:
   - `$ npm install`
@@ -23,8 +18,8 @@ An easy way to **build** you own personal web resume! 💪
 
 ## Configuration ⚙
 
-***You can easily customize the template and the languages!*** 🚀
-- To do this, you have to **edit** the **locales** files as you want! 📄
+***You can easily customize the template and the languages!***
+- To do this, you have to **edit** the **locales** files as you want!
 
 ![locates](./documentation/localefiles.jpg)
 
@@ -39,14 +34,13 @@ An easy way to **build** you own personal web resume! 💪
 2) **Change** **i18n** configuration in the ***nuxt.config.js***, 
 ```javascript
 i18n: {
-	locales: ['en', 'es', 'fr'],
+	locales: ['en', 'tr'],
 	defaultLocale:  'en',
 	vueI18n: {
 		fallbackLocale:  'en',
 		messages: {
 			en:  require('./locales/en.json'),
-			es:  require('./locales/es.json'),
-			fr:  require('./locales/fr.json')
+			tr:  require('./locales/tr.json'),
 		}
 	}
 },
@@ -55,18 +49,17 @@ i18n: {
 ```html
 <div>
 	<nuxt-link class="btn btn-light" :to="switchLocalePath('en')">EN</nuxt-link>
-	<nuxt-link class="btn btn-light" :to="switchLocalePath('es')">ES</nuxt-link>
-	<nuxt-link class="btn btn-light" :to="switchLocalePath('fr')">FR</nuxt-link>
+	<nuxt-link class="btn btn-light" :to="switchLocalePath('tr')">TR</nuxt-link>
 </div>
 ```
 
-##  Generate static code 🥳
+##  Generate static code
 1) In the **root** folder, run the following command:
 - `$ npm run generate`
 2) All the **generated** code will be apear in the `./dist` folder.
 
 
-## Used Technologies/Tools 🔧🦾
+## Used Technologies/Tools
 
 - [VueJs](https://vuejs.org/)
 - [Nuxt](https://nuxtjs.org/)

@@ -8,49 +8,36 @@
     "projects": "Projects"
   },
   "personalInfo": {
-    "name": "Iván",
-    "lastName": "Greve",
+    "name": "Alperen",
+    "lastName": "Akyuz",
     "subHeadingText": [
-      "Software Enginneer",
-      "Full Stack Developer",
-      "Code enthusiast!"
+      "Software Developer",
+      "Full Stack Developer"
     ],
-    "city": "Buenos Aires, Argentina",
-    "phoneNumber": "+54 - 6766-9851",
-    "email": "ivangreve@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/ivan-greve/",
-    "github": "https://github.com/ivangreve/",
+    "city": "Canakkale, Turkey",
+    "phoneNumber": "+90 539 624 8627",
+    "email": "contact@alperenakyuz.me",
+    "linkedin": "https://linkedin.com/in/alperen-akyuz",
+    "github": "https://github.com/AlperenAkyuzz",
     "myDescription": "Passionate web developer, making useful application using the latest technologies!"
   },
   "educationDegrees": {
-    "title": "Education 📕",
+    "title": "Education",
     "degrees": [
       {
-        "collage": "University of La Matanza",
-        "name": "Engineer Degree",
+        "collage": "Canakkale Onsekiz Mart University",
+        "name": "Bachelor Degree",
         "itemList": ["Computer Science"],
-        "startEndDate": "March 2013 - December 2018"
-      },
-      {
-        "collage": "University of La Matanza",
-        "name": "Software Engineering Technician",
-        "itemList": ["Computer Science"],
-        "startEndDate": "March 2013 - December 2016"
-      },
-      {
-        "collage": "Instituto Madero",
-        "name": "Electronic technician",
-        "itemList": ["Electronic"],
-        "startEndDate": "March 2007 - December 2012"
+        "startEndDate": "March 2016 - December 2020"
       }
     ]
   },
   "workExperiences": {
-    "title": "Work Expecience 🔨",
+    "title": "Work Experience",
     "works": [
       {
-        "position": "Software Engineer / FullStack Developer",
-        "companie": "Axum - Smart Solutions",
+        "position": "Software Developer / FullStack Developer",
+        "companie": "Endless Fairs Online Organization Company",
         "responsabilities": [
           "Responsible for designing, developing and maintaining a group of applications used in the retail industry by multinational companies as Pepsico, Unilever, Quilmes, etc.",
           "Web Team leader, I take technical decisions about which technologies use in each project and how the team will works.",
